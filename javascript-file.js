@@ -36,8 +36,10 @@ round = playRound(playerSelection, computerSelection)
 function message(round, playerSelection, computerSelection) {
     if (round === 'Win') {
         return `${playerSelection} beats ${computerSelection}!`
-    } else {
+    } else if (round === 'Lose') {
         return `${computerSelection} beats ${playerSelection}`
+    } else {
+        return `You both picked the same one!`
     }
 }
 whyResult = message(round, playerSelection, computerSelection)
