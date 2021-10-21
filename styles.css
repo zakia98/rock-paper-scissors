@@ -1,0 +1,76 @@
+@import url('https://fonts.googleapis.com/css2?family=Rampart+One&display=swap');
+
+
+body {
+    background-color: #a862ea;
+    font-family: "Rampart One", cursive;
+    display:flex;
+    flex-direction:column;
+    height:100vh;
+}
+
+
+header { 
+    display:flex;
+    font-size: 36px;
+    align-items: center;
+    max-height:20%;
+    
+}
+
+.box {
+    display:flex;
+    flex:1;
+    height:10%
+}
+
+.box.one {
+    display:flex;
+    max-height:10%;
+
+}
+.box.two {
+    display:flex;
+    height:20%;
+    justify-content: center;
+    gap:30px;
+    flex-wrap: wrap;
+}
+footer {
+    display:flex;
+    justify-content:center;
+
+
+}
+
+button {
+    display:flex;
+    height: 150px;
+    width: 150px;
+    justify-content:center;
+    align-items:flex-end;
+    font-weight: bolder;
+    border-radius: 15px;
+    border-color: #EA62e7;
+    font-size: 24px;
+    box-shadow: 2px 2px 5px;
+    padding:
+}
+
+#rock {
+    background-image: url(/images/rock.png);
+    background-repeat:no-repeat;
+    background-size:100%
+}
+
+#paper {
+    background-image: url(/images/paper.png);
+    background-repeat:no-repeat;
+    background-size:100%
+}
+
+#scissors {
+    background-image: url(/images/scissors.png);
+    background-repeat:no-repeat;
+    background-size:100%
+}

@@ -14,7 +14,7 @@ function playerPlay() {
 }
 
 //playerSelection = prompt("");
-playerSelection = playerPlay().toLowerCase()
+
 
 function playRound(playerSelection, computerSelection) {
     if (playerSelection === computerSelection) {
@@ -32,7 +32,7 @@ const computerSelection = computerPlay(3)
 console.log(`Player's selection: ${playerSelection}`)
 console.log(`Computer's Selection: ${computerSelection}`)
 
-round = playRound(playerSelection, computerSelection)
+
 function message(round, playerSelection, computerSelection) {
     if (round === 'Win') {
         return `${playerSelection} beats ${computerSelection}!`
@@ -55,4 +55,3 @@ function game() {
         console.log(`You ${round}! ${whyResult}`);
     }
 }
-game()
