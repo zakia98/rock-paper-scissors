@@ -7,11 +7,24 @@ computerPlay = function(max) {
     } else {
         return 'rock'
     }
-};
-
-function playerPlay() {
-    return prompt("Please enter rock, paper, or scissors ")
 }
+console.log("hi")
+
+const rockbtn = document.querySelector('#rock');
+rockbtn.addEventListener('click', () => {
+    alert('HI ROCK')
+})
+const paperbtn = document.querySelector('#paper')
+paperbtn.addEventListener('click',() => {
+    alert('paper')
+})
+const scissorsbtn = document.querySelector('#scissors')
+scissorsbtn.addEventListener('click', () => {
+    alert('scissors')
+})
+
+
+/*
 
 //playerSelection = prompt("");
 
@@ -55,3 +68,4 @@ function game() {
         console.log(`You ${round}! ${whyResult}`);
     }
 }
+*/
