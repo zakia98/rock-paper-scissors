@@ -115,3 +115,9 @@ button {
     flex-wrap: wrap;
     flex:1;
 }
+
+#win-loss {
+    display:flex;
+    justify-self: center;
+    align-self:center;
+}

@@ -74,15 +74,17 @@ rockbtn.addEventListener('click', () => {
 const paperbtn = document.querySelector('#paper')
 paperbtn.addEventListener('click',() => {
     let computerSelection = computerPlay(3)
-    result = playRound('Paper', computerSelection)
-    console.log(result)
-    console.log(whyResult(result, 'Paper', computerSelection))
+    const playerSelection = 'Paper'
+    result = playRound(playerSelection, computerSelection)
+    finalMessage = whyResult(result, playerSelection, computerSelection)
+    addHistory(result, finalMessage, playerSelection, computerSelection)
 })
 
 const scissorsbtn = document.querySelector('#scissors')
 scissorsbtn.addEventListener('click', () => {
     let computerSelection = computerPlay(3)
-    result = playRound('Scissors', computerSelection)
-    console.log(result)
-    console.log(whyResult(result, 'Scissors', computerSelection))
+    const playerSelection = 'Scissors'
+    result = playRound(playerSelection, computerSelection)
+    finalMessage = whyResult(result, playerSelection, computerSelection)
+    addHistory(result, finalMessage, playerSelection, computerSelection)
 })
