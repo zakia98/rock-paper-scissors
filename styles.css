@@ -26,17 +26,17 @@ header {
 .box {
     display:flex;
     flex:1;
-    height:10%
+
 }
 
 .box.one {
     display:flex;
-    max-height:10%;
+
 
 }
 .box.two {
     display:flex;
-    height:20%;
+    margin:20px;
     justify-content: center;
     gap:30px;
     flex-wrap: wrap;
@@ -45,7 +45,8 @@ header {
 .box.three {
     display:flex;
     justify-content: center;
-    background-color:rgb(65, 64, 64)
+    background-color:rgb(65, 64, 64);
+    flex:1;
 }
 footer {
     display:flex;
@@ -88,7 +89,29 @@ button {
 #record {
     display:flex;
     flex: 1;
-    max-width: 30rem;
     outline-color:white;
     outline-style:solid;
+    flex-direction: column;
+    margin:10px;
+    max-height:1000px;
+    flex-wrap:wrap;
+}
+
+.records {
+    padding:5px;
+    margin:10px;
+    outline-style:dotted;
+    max-width:20rem
+}
+
+.records > * {
+    margin:0
+}
+
+.container {
+    display:flex;
+    justify-content: center;
+    flex-direction:column;
+    flex-wrap: wrap;
+    flex:1;
 }
