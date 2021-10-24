@@ -69,19 +69,19 @@ button {
 }
 
 #rock {
-    background-image: url(../images/rock.png);
+    background-image: url(../images/rock.PNG);
     background-repeat:no-repeat;
     background-size:100%
 }
 
 #paper {
-    background-image: url(../images/paper.png);
+    background-image: url(../images/paper.PNG);
     background-repeat:no-repeat;
     background-size:100%
 }
 
 #scissors {
-    background-image: url(../images/scissors.png);
+    background-image: url(../images/scissors.PNG);
     background-repeat:no-repeat;
     background-size:100%
 }
