@@ -64,25 +64,27 @@ button {
     font-weight: bolder;
     border-radius: 15px;
     border-color: #f5eaf4;
-    font-size: 24px;
+    font-size: 30px;
+    font:"Calibri";
     box-shadow: 2px 2px 5px;
-    color:whitesmoke
+    -webkit-text-stroke: 1.5px black ;
+    -webkit-text-fill-color: white;
 }
 
 #rock {
-    background-image: url("../images/rock.PNG");
+    background-image: url("rock.JPG");
     background-repeat:no-repeat;
     background-size:100%
 }
 
 #paper {
-    background-image: url("../images/paper.PNG");
+    background-image: url("paper.JPG");
     background-repeat:no-repeat;
     background-size:100%
 }
 
 #scissors {
-    background-image: url("../images/scissors.PNG");
+    background-image: url("scissors.JPG");
     background-repeat:no-repeat;
     background-size:100%
 }
