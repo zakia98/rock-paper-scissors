@@ -45,7 +45,7 @@ header {
 .box.three {
     display:flex;
     justify-content: center;
-    background-color:rgb(65, 64, 64);
+    background-color:rgb(26, 25, 25);
     flex:1;
 }
 footer {
@@ -63,9 +63,10 @@ button {
     align-items:flex-end;
     font-weight: bolder;
     border-radius: 15px;
-    border-color: #EA62e7;
+    border-color: #f5eaf4;
     font-size: 24px;
     box-shadow: 2px 2px 5px;
+    color:whitesmoke
 }
 
 #rock {
@@ -91,10 +92,12 @@ button {
     flex: 1;
     outline-color:white;
     outline-style:solid;
-    flex-direction: column;
+    flex-direction: column-reverse;
     margin:10px;
     max-height:1000px;
-    flex-wrap:wrap;
+    width:20rem;
+    justify-self:center;
+    align-self:center;
 }
 
 .records {
@@ -120,4 +123,12 @@ button {
     display:flex;
     justify-self: center;
     align-self:center;
+}
+
+#result {
+    display:flex;
+    justify-content: center;
+    font-size: 38px;
+    text-align:center;
+    font:"Rampart-one";
 }
